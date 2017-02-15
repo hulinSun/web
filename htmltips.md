@@ -110,8 +110,14 @@ border: 1px dashed red; // 一个都不能少
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-22@2x.png)
 
 块级元素可以设置为行内元素 ，行内元素可以设置为块级元素
-修改display属性的值即可，inline行内。 block 块 
+修改display属性的值即可，inline行内。 block 块  display属性优先卸载样式表前面
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-23@2x.png)
+
+浮动这个东西，我们在初期一定要遵循一个原则：永远不是一个东西单独浮动，浮动都是一起浮动，要浮动，大家都浮动。
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-24@2x.png)
+
+
+
 
 
 
