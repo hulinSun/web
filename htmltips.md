@@ -14,8 +14,75 @@
 ![](/Users/Hony/Desktop/Githup/web/someImages/8B7943B7-18C3-40D4-A81E-C269782EBC2E.png
 )
 
+### 网页中99%需要换行的时候，是因为另起了一个段落，所以要用p，不要用<br />
+br是英语break打断的意思。
 ### a标签的属性
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170214-0@2x.png)
+
+### ul 标签里面只能放 li 标签，不能放别的东西 li是容器级标签，里面什么都能放。可以用来写tableviewCell
+
+### DL
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-1@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-0@2x.png)
+
+### span 是文本级标签
+*span里面只能放置文字、图片、表单元素。 span里面不能放p、h、ul、dl、ol、div。*
+
+### 表单
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-2@2x.png)
+
+### 输入框
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-3@2x.png
+)
+
+### 下拉列表
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-4@2x.png)
+
+### 三种按钮
+普通按钮 button 
+提交按钮 submit (按钮不需要写value自动就有“提交”文字。)
+重置按钮 reset
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-5@2x.png)
+
+### 字符实体
+<  == &lt; (less than)
+>  == &gt; (greater than)
+c  == &copy;
+   == &nbsp; 空格
+   
+###写css的地方是style标签，就是“样式”的意思，写在head里面
+css对换行不敏感，对空格也不敏感。但是一定要有标准的语法。冒号，分号都不能省略。
+
+html负责结构，css负责样式，js负责行为。
+
+### 选择器
+* 标签选择器
+* id 选择器(不能相同，字母开头，可以有数字下划线) #lj{}
+* 类选择器(.)  class属性可以重复，比如，页面上可能有很多标签都有t这个类,  .t{}  ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-6@2x.png)  ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-7@2x.png)
+*  后代选择器![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-8@2x.png)
+*  交集选择器 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-9@2x.png) 交集选择器，我们一般都是以标签名开头，比如div.haha  比如p.special 最好不要连续交。查找耗费性能
+*  并集选择器 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-10@2x.png)
+*  儿子选择器 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-11@2x.png)
+*  序选择器 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-13@2x.png)
+*  下一个兄弟选择器 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-12@2x.png)
+
+
+### CSS属性的继承性与层叠性
+有一些属性，当给自己设置的时候，自己的后代都继承上了，这个就是继承性。
+哪些属性能继承？
+color、 text-开头的、line-开头的、font-开头的。
+
+
+**这些关于文字样式的，都能够继承； 所有关于盒子的、定位的、布局的属性都不能继承。**
+层叠性：就是css处理冲突的能力。 所有的权重计算，没有任何兼容问题！
+
+
+
+
+
+
+   
+
 
 
 
