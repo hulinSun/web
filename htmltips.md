@@ -91,9 +91,27 @@ color、 text-开头的、line-开头的、font-开头的。
 ### 权重计算总结
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-16@2x.png)
 
+### 盒子模型
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-17@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-18@2x.png)
 
+一般写法理解
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-19@2x.png
+)
 
+不能把小属性写在大属性前面，所以一般都是小属性层叠大属性![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-20@2x.png)
 
+### border
+三要素： 粗细 线型 颜色（默认为黑） 
+border: 1px dashed red; // 一个都不能少 
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-21@2x.png)
+
+### 块级元素和行内元素
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-22@2x.png)
+
+块级元素可以设置为行内元素 ，行内元素可以设置为块级元素
+修改display属性的值即可，inline行内。 block 块 
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-23@2x.png)
 
 
 
