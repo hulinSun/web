@@ -14,8 +14,7 @@
 ![](/Users/Hony/Desktop/Githup/web/someImages/8B7943B7-18C3-40D4-A81E-C269782EBC2E.png
 )
 
-### 网页中99%需要换行的时候，是因为另起了一个段落，所以要用p，不要用<br />
-br是英语break打断的意思。
+### 网页中99%需要换行的时候，是因为另起了一个段落，所以要用p，不要用br br是英语break打断的意思。
 ### a标签的属性
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170214-0@2x.png)
 
