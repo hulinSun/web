@@ -72,17 +72,24 @@ html负责结构，css负责样式，js负责行为。
 color、 text-开头的、line-开头的、font-开头的。
 
 
+
 **这些关于文字样式的，都能够继承； 所有关于盒子的、定位的、布局的属性都不能继承。**
 层叠性：就是css处理冲突的能力。 所有的权重计算，没有任何兼容问题！
 
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-14@2x.png)
 
+真实项目中，你设置了某个属性。但是显示别的。这时候要考虑注意权重的问题了 权重比不过人家 0，1，0  < 0,1,1 如果这个时候考虑补全权重就可以了
+通过继承来的属性，权重为0 (选中与没选中)
 
+!important标记 权重无限大![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-15@2x.png)
 
+!importtant 提升的是一个属性，而不是一个选择器 （字体颜色是red听inportant 但字号是50px）
 
+!importtant  无法提升继承的权重
+!importtant 不影响就近原则
 
-   
-
-
+### 权重计算总结
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-16@2x.png)
 
 
 
