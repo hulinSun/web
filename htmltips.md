@@ -116,6 +116,35 @@ border: 1px dashed red; // 一个都不能少
 浮动这个东西，我们在初期一定要遵循一个原则：永远不是一个东西单独浮动，浮动都是一起浮动，要浮动，大家都浮动。
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170215-24@2x.png)
 
+浮动的性质： 脱标  贴边 字围 收缩(一个浮动的元素，如果没有设置width，那么将自动收缩为文字的宽度)
+
+###清除浮动
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-0@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-1@2x.png)
+
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-2@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-3@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-4@2x.png)
+
+### margin 塌陷现象
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-5@2x.png)
+
+盒子居中 margin: 0 auto;![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-6@2x.png)
+
+### 善于使用父亲的padding 而不是儿子的，margin (父子之间不谈marign ，多用padding)
+
+### 单行文本垂直居中（注意是单行）
+行高=盒子高
+如果想让多行文本垂直居中，设置盒子的padding
+
+### font 属性 (字号 行高 字体)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-7@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-8@2x.png)
+![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-9@2x.png)
+
+
+
+
 
 
 
