@@ -146,6 +146,8 @@ border: 1px dashed red; // 一个都不能少
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-10@2x.png)
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-11@2x.png)
 必须按照固定的顺序写,否则将失效 love hate
+所有的a不继承text、font这些东西。因为a自己有一个伪类的权重。
+
 
 ###background
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-12@2x.png)
