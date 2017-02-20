@@ -154,6 +154,8 @@ border: 1px dashed red; // 一个都不能少
 
 ![](/Users/Hony/Desktop/Githup/web/someImages/QQ20170216-13@2x.png)
 
+### 行内块元素和行内块元素拼接是有问题的(京东的搜索框) 后面的盒子会掉下来，最简单的处理方式是浮动
+
 
 
 
