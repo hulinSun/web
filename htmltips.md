@@ -162,7 +162,20 @@ border: 1px dashed red; // 一个都不能少
 
 ### 行高一定在字号的后面
 
+### js 的变量作用域
+ 1. 在最外层声明的变量。
+ 2. 在函数体内部，但是没有声明var 的变量也是全局变量
 
+### 事件三要素
+事件源    事件    事件处理程序  
+button.onclick = function{}
+
+### 让盒子隐藏
+ Display: none  / display: block ;  显示的意思 
+ Visibility: hidden; / visibility: visible  显示的意思
+ Display  隐藏不占位置
+ Visibility:hidden 隐藏占有位置   停职留薪
+ Overflow:hidden;   隐藏超出的部分。
 
 
 
