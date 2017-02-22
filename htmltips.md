@@ -168,7 +168,7 @@ border: 1px dashed red; // 一个都不能少
 
 ### 事件三要素
 事件源    事件    事件处理程序  
-button.onclick = function{}
+button.onclick = function(){}
 
 ### 让盒子隐藏
  Display: none  / display: block ;  显示的意思 
