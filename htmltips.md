@@ -177,7 +177,9 @@ button.onclick = function(){}
  Visibility:hidden 隐藏占有位置   停职留薪
  Overflow:hidden;   隐藏超出的部分。
  
- ### DOM 做动态添加节点的时候，一般都是先写好css样式，然后给其赋类名的方法做样式的调整，而不是一个属性一个属性的搞
+###DOM 做动态添加节点的时候，一般都是先写好css样式，然后给其赋类名的方法做样式的调整，而不是一个属性一个属性的搞
+ 
+###双标签改变内容用innerHTML。单标签用value
 
 
 
