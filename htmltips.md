@@ -183,7 +183,23 @@ button.onclick = function(){}
 
 ### 九宫格布局， 浮动的盒子如果长度长度不够会掉下来，但是如果你不想让他掉下来，那么你要在这浮动的盒子里包一层定宽的div，那样就不会掉下来了
 
-### 要做动画，一般要加定位，通过left top 等这些值改变位置 嘻嘻
+### 要做动画，一般要加定位，通过left top 等这些值改变位置 嘻嘻 
+
+### 动画曲线
+
+```
+  var btn = document.getElementById("btn");
+    var box = document.getElementById("bOX");
+    var timer = null;
+    var leader = 0;
+    var target = 500;
+    btn.onclick = function() {
+        setInterval(function(){
+            leader = leader + (target - leader )/10;
+            box.style.left = leader + "px";
+        },30)
+    }
+```
 
 
 
