@@ -201,6 +201,11 @@ button.onclick = function(){}
     }
 ```
 
+### event 参数
+pageX: 相对于整个page的。以page 的左上角为00 点。如果page 往下滚动，那么值会变大
+clientX: 相对于网页的可视范围。
+screenX: 相对于屏幕的左上角。
+
 
 
 
