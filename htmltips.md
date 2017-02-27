@@ -206,6 +206,12 @@ pageX: 相对于整个page的。以page 的左上角为00 点。如果page 往�
 clientX: 相对于网页的可视范围。
 screenX: 相对于屏幕的左上角。
 
+### 清除拖拽
+按下鼠标然后拖拽可以选择文字 的。 
+清除选中的内容 
+window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+
+
 
 
 
