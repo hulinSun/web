@@ -211,6 +211,8 @@ screenX: 相对于屏幕的左上角。
 清除选中的内容 
 window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
 
+### 悬浮效果通过scrolltop 来判断，通过fixed 来做。注意fixed 不占位置。
+
 
 
 
