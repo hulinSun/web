@@ -213,6 +213,24 @@ window.getSelection ? window.getSelection().removeAllRanges() : document.selecti
 
 ### 悬浮效果通过scrolltop 来判断，通过fixed 来做。注意fixed 不占位置。
 
+### 缓动动画
+
+```
+ function animate(obj,target){  //  第一个参数 动谁   第二个参数  动多少
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function() {
+              // 计算步长   动画的原理    盒子本身的位置  +  步长
+      var step = (target - obj.offsetLeft) / 10;  // 步长
+              step =  step > 0 ? Math.ceil(step) : Math.floor(step);  //  取整步长
+              // obj.style.left = 盒子本身的位置  +  步长
+              obj.style.left = obj.offsetLeft + step + "px";
+              if(obj.offsetLeft == target){
+                  clearInterval(obj.timer);
+              }
+        },30)
+    }
+```
+
 
 
 
