@@ -231,6 +231,24 @@ window.getSelection ? window.getSelection().removeAllRanges() : document.selecti
     }
 ```
 
+### 手风琴效果的 Swift 实现
+### 节流
+```
+  var num = 0;
+    var demo = document.getElementById("demo")
+    window.onresize = throttle(function(){
+        demo.innerHTML = window.innerWidth || document.documentElement.clientWidth;
+        num++;
+        console.log(num);
+    },300);
+    function throttle(fn,delay) {  // 闭包  节流
+         var timer = null;
+         return function() {
+             clearTimeout(timer);
+             timer = setTimeout(fn,delay);
+         }
+    }
+```
 
 
 
