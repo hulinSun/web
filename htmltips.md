@@ -250,6 +250,24 @@ window.getSelection ? window.getSelection().removeAllRanges() : document.selecti
     }
 ```
 
+### 对象
+```
+function Person(name,age) {   //  构造函数
+       this.name = name;   // 只写属性
+       this.age = age;
+   }
+    Person.prototype.showName = function() {  // 用的共同的父亲
+        alert("我的名字是"+ this.name);
+    }
+    // 原型
+    Person.prototype.showAge = function() {
+        alert("我的名字是"+ this.age);
+    }
+    var demo = new Person("刘德华",15);
+    demo.showName();
+    alert(demo.showName === demo1.showName);
+```
+
 
 
 
