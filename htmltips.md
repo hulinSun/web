@@ -268,6 +268,27 @@ function Person(name,age) {   //  构造函数
     alert(demo.showName === demo1.showName);
 ```
 
+### jQuery
+js入口函数跟jQuery入口函数的区别：
+Js的window.onload事件是等到所有内容，以及我们的外部图片之类的文件加载完了之后，才回去执行
+jQuery的入口函数 是在 html所有标签都加载之后，就回去执行。
+jQuery选择器是重点
+
+	mouseover/mouseout事件，鼠标经过的时候会触发多次，每遇到一个子元素就会触发一次。
+mouseenter/mouseleave事件，鼠标经过的时候只会触发一次
+
+###DOM对象跟jQuery对象相互转换
+
+```
+jQuery对象转换成DOM对象:
+方式一：$(“#btn”)[0]
+方式二：$(“#btn”).get(0)
+
+DOM对象转换成jQuery对象
+$(document)-> 把DOM对象转成了jQuery对象
+	var btn = document.getElementById(“bt n”);
+	btn 	-> $(btn);	```
+
 
 
 
