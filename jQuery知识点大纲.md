@@ -1,11 +1,8 @@
-# jQuery 第三天知识点大纲
+# jQuery 
 
-## 一、复习
-* 第一天
     * jQuery优点
     * jQuery入口函数
     * jQuery 选择器
-* 第二天
     + jQuery CSS操作
     + jQuery 动画
     + jQuery Dom操作
@@ -353,6 +350,8 @@
     *   上网把 按照package control的那段代码，粘贴一下，然后回车。
     *   
     *  第二步：使用Ctrl + shift + p
+
+
 
 
 
