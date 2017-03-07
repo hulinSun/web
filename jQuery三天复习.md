@@ -19,7 +19,7 @@
 
 ## 3.jQuery的入口函数
 + 3.1 语法
-    * jQuery(document).read(function(){  });
+    * jQuery(document).ready(function(){  });
     * $(function(){ });// **
     * window.onlaod = function(){}
     * $ === jQuery // $是jQuery全局函数的别名。
@@ -399,3 +399,5 @@ s1,s2,s3            $("th,td,.intro")            所有带有匹配选择的元�
     * 普通jQuery对象的each方法
         - $("li").each(function(index, element){} )
         - 参数的顺序是一致的。
+
+
