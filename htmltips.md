@@ -287,7 +287,11 @@ jQuery对象转换成DOM对象:
 DOM对象转换成jQuery对象
 $(document)-> 把DOM对象转成了jQuery对象
 	var btn = document.getElementById(“bt n”);
-	btn 	-> $(btn);	```
+	btn 	-> $(btn);
+		```
+```
+
+### css3 中的flex 类似于ios 中的stackview 的布局，比stack更灵活
 
 
 
