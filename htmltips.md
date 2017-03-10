@@ -296,6 +296,11 @@ $(document)-> 把DOM对象转成了jQuery对象
 
 
 
+### MVVM 理解
+
+ajax 之后都是拼接的时代，js 的面向对象编程
+一个对象 bindDom -> view + 数据
+
 
 
 
