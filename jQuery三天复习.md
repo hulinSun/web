@@ -17,6 +17,8 @@
 + 2.6 jQuery的事件处理
 
 
+
+
 ## 3.jQuery的入口函数
 + 3.1 语法
     * jQuery(document).ready(function(){  });
@@ -115,6 +117,7 @@ s1,s2,s3            $("th,td,.intro")            所有带有匹配选择的元�
 :selected   $(":selected")  所有被选取的 input 元素
 :checked    $(":checked")   所有被选中的 input 元素
 ```
+
 
 
 ### 4.3 jQuery选择方法
